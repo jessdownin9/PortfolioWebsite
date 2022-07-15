@@ -1,0 +1,226 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Banner */
+
+.banner {
+    color: #FFFFFF;
+    text-shadow: 0rem 0.25rem 0.25rem rgba(169, 135, 50, 0.496);
+    background-color: #0d0e0a;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    right: 0rem;
+    z-index: 1;
+}
+
+.banner .background {
+    opacity: 0.25;
+    width: 45rem;
+    position: absolute;
+    bottom: 0rem;
+    right: 0rem;
+    z-index: -1;
+}
+
+.banner .menu {
+    width: 3rem;
+    position: absolute;
+    right: 0rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+.banner h1 {
+    font-weight: 300;
+    font-size: 3rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: 6rem;
+    margin-left: 6rem;
+}
+
+.banner h2 {
+    font-weight: 700;
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.banner p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+}
+
+.banner .arrow {
+    width: 4rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+
+/* About Me Page */
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about .img-container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.about .text-container {
+    padding-top: 4rem;
+}
+
+.about img {
+    width: 20rem;
+    opacity: 0.95;
+}
+
+.about h3 {
+    font-weight: 300;
+    font-size: 1.5rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.about h4 {
+    font-weight: 600;
+    font-size: 4rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about p, li {
+    font-weight: 400;
+    font-size: 1rem;
+    list-style-type: circle;
+    margin-right: 15rem;
+}
+
+/* Projects Page */
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.projects .img-container {
+    display: grid;
+    padding-right: 4rem;
+}
+
+.projects .text-container {
+    padding-top: 2rem;
+    padding-left: 4rem;
+}
+
+.projects img {
+    width: 20rem;
+    opacity: 0.95;
+}
+
+.projects h3 {
+    font-weight: 300;
+    font-size: 1.5rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.projects h4 {
+    font-weight: 600;
+    font-size: 4rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.projects .arrow {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.projects .rectangle {
+    background: #362F25;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+}
+
+.projects .triangle {
+    width: 0rem;
+    height: 0rem;
+    border-top: 1.5rem solid transparent;
+    border-bottom: 1.5rem solid transparent;
+    border-left: 1.5rem solid #362F25;
+}
+
+.projects a {
+    text-decoration: none;
+}
+
+.projects h5 {
+    font-weight: 300;
+    font-size: 1.5rem;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+/* Contact Page */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contact .links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.contact h3 {
+    font-weight: 300;
+    font-size: 1.5rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.contact h4 {
+    font-weight: 600;
+    font-size: 4rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Footer */
+
+footer {
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 0.15em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

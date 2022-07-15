@@ -5,46 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Jessica Downing</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section>
+    <section class="banner">
+        <img src="Images/banner.jpg" alt="modern lamp" class="background">
+        <img src="Images/hamburgermenu.png" alt="menu icon" class="menu">
         <h1>Jessica Downing</h1>
         <h2>Website Design</h2>
         <p>I'm a software engineer who specializes in designing and building websites.</p>
+        <img src="Images/arrow.png" alt="downward arrow icon" class="arrow">
     </section>
-    <section>
-        <h3>Jessica Downing</h3>
-        <h4>About Me</h4>
-        <p>I graduated from Brigham Young University with a Bachelor of Science in Mathematics Education. I worked as a high school mathematics teacher for two years. I discovered my passion for coding while creating interactive math problems and a website for my students. Here are some of the skills I have:</p>
-        <ul>
-            <li>JavaScript</li>
-            <li>HTML/CSS</li>
-            <li>C++</li>
-            <li>Python</li>
-        </ul>
-    </section>
-    <section>
-        <h3>Check Out My Recent</h3>
-        <h4>Projects</h4>
-        <div>
-            <a href="creditcardchecker.html"><h5>Credit Card Checker</h5></a>
-        </div>
-        <div>
-            <a href="storygenerator.html"><h5>Story Generator</h5></a>
-        </div>
-        <div>
-            <a href="paequormodel.html"><h5>p. Aequor Model</h5></a>
-        </div>
-    </section>
-    <section>
-        <h4>Contact Me</h4>
-        <h6>Email</h6>
-        <h6>Linked In</h6>
-        <h6>GitHub</h6>
-        <h6>Discord</h6>
-    </section>
+    <main>
+        <section class="about">
+            <div class="img-container">
+                <img src="Images/bulb.jpg" alt="modern light bulb">
+            </div>
+            <div class="text-container">
+                <h3>Jessica Downing</h3>
+                <h4>About Me</h4>
+                <p>I graduated from Brigham Young University with a Bachelor of Science in Mathematics Education. I worked as a high school mathematics teacher for two years. I discovered my passion for coding while creating interactive math problems and a website for my students. Here are some of the skills I have:</p>
+                <div class="list-container">
+                    <div class="left-col">
+                        <ul>
+                            <li>JavaScript</li>
+                            <li>HTML/CSS</li>
+                        </ul>
+                    </div>
+                    <div class="right-col">
+                        <ul>
+                            <li>C++</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects">
+            <div class="text-container">
+                <h3>Check Out My Recent</h3>
+                <h4>Projects</h4>
+                <div class="arrow">
+                    <div class="rectangle">
+                        <a href="HTML/creditcardchecker.html"><h5>Credit Card Checker</h5></a>
+                    </div>
+                    <div class="triangle"></div>
+                </div>
+                <div class="arrow">
+                    <div class="rectangle">
+                        <a href="HTML/storygenerator.html"><h5>Story Generator</h5></a>
+                    </div>
+                    <div class="triangle"></div>
+                </div>
+               <div class="arrow">
+                    <div class="rectangle">
+                        <a href="HTML/paequormodel.html"><h5>p. Aequor Model</h5></a>
+                    </div>
+                    <div class="triangle"></div>
+               </div>
+            </div>
+            <div class="img-container">
+                <img src="Images/lamp.jpg" alt="modern iron hanging lamp">
+            </div>
+        </section>
+        <section class="contact">
+            <h4>Contact Me</h4>
+            <div class="links">
+                <h3>Email</h3>
+                <h3>Linked In</h3>
+                <h3>GitHub</h3>
+                <h3>Discord</h3>
+            </div>
+        </section>
+        <footer>
+            <p>jessicalaurendowning@gmail.com</p>
+        </footer>
+    </main>
+    <script src="JavaScript/main.js"></script>
 </body>
-<footer>
-    <p>jessicalaurendowning@gmail.com</p>
-</footer>
+
 </html>
